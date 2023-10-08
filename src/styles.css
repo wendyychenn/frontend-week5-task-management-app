@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Song UI styles */
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  box-shadow: 0 1px 2px #aeaeae;
+}
+
+.task-details p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task-details p input {
+  margin-left: 1rem;
+}
+
+.task-details span {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit label {
+  display: block;
+  margin: 1rem;
+}
+
+.edit input {
+  margin-left: 1rem;
+}
+
+.remove {
+  color: red;
+  padding: 0.15em;
+  margin-right: 1rem;
+  font-weight: 500;
+}
